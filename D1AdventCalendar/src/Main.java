@@ -13,8 +13,7 @@ public class Main {
         while(Integer.parseInt(elf) > 0) {
             sumtot = 0;
             while (!elf.equals("")) {
-                int num = Integer.parseInt(elf);
-                sumtot += num;
+                sumtot += Integer.parseInt(elf);
                 elf = bur.readLine();
             }
             if (sumtot > sumret) {

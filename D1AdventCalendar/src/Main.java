@@ -6,8 +6,8 @@ public class Main {
 
         BufferedReader bur = new BufferedReader(new FileReader("../D1AdventCalendar/D1Input.txt"));
         String elf = bur.readLine();
-        int sumtot = 0;
-        int sumret = 0;
+        long sumtot = 0;
+        long sumret = 0;
         boolean acabar = false;
 
         while(Integer.parseInt(elf) > 0) {

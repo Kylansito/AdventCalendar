@@ -23,6 +23,6 @@ public class Main {
             elf = bur.readLine();
 
         }
-        System.out.print(sumtot);
+        System.out.print(sumret);
     }
 }
